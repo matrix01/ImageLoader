@@ -33,6 +33,10 @@
                    @{@"name": @"Rezwan", @"url": @"http://lorempixel.com/200/200/"},
                    @{@"name": @"Symon", @"url": @"http://lorempixel.com/200/200/"},
                    @{@"name": @"Muftee", @"url": @"http://lorempixel.com/200/200/"},
+                   @{@"name": @"Milan", @"url": @"http://lorempixel.com/200/200/"},
+                   @{@"name": @"Rezwan", @"url": @"http://lorempixel.com/200/200/"},
+                   @{@"name": @"Symon", @"url": @"http://lorempixel.com/200/200/"},
+                   @{@"name": @"Muftee", @"url": @"http://lorempixel.com/200/200/"},
                    @{@"name": @"Milan", @"url": @"http://lorempixel.com/200/200/"}
                    ];
     imageSource = [@[] mutableCopy];
