@@ -15,8 +15,8 @@ jobs:
 
       # Install CocoaPods
       #- run:
-      #    name: Install CocoaPods
-      #    command: pod install
+      #  name: Install CocoaPods
+      #  command: pod install
 
       # Build the app and run tests
       - run:
@@ -37,3 +37,15 @@ jobs:
       - store_artifacts:
           path: ~/Library/Logs/scan
           destination: scan-logs
+
+workflows:
+  version: 2.5.3
+  build_and_test:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
