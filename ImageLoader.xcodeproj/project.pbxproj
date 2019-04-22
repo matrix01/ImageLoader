@@ -173,6 +173,7 @@
 				TargetAttributes = {
 					8C549D3E1BE1C338007E5ED8 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = QSBJ3FWFG5;
 					};
 					8C549D571BE1C338007E5ED8 = {
 						CreatedOnToolsVersion = 6.4;
@@ -355,8 +356,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QSBJ3FWFG5;
 				INFOPLIST_FILE = ImageLoader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unifa.test.ImageLoader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -365,8 +368,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QSBJ3FWFG5;
 				INFOPLIST_FILE = ImageLoader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unifa.test.ImageLoader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -424,6 +429,7 @@
 				8C549D641BE1C338007E5ED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C549D651BE1C338007E5ED8 /* Build configuration list for PBXNativeTarget "ImageLoaderTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +438,7 @@
 				8C549D671BE1C338007E5ED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
