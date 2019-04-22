@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='ImageLoaderTests.xctest' tests='2' failures='0'>
+  <testsuite name='ImageLoaderTests' tests='2' failures='0'>
+    <testcase classname='ImageLoaderTests' name='testExample' time='0.001'/>
+    <testcase classname='ImageLoaderTests' name='testPerformanceExample' time='0.320'/>
+  </testsuite>
+</testsuites>
